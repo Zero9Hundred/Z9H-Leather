@@ -95,6 +95,47 @@ button {
     border-radius: 12px;
     font-weight: 700;
     letter-spacing: 1px;
+
+/* 1. Logo at double-scale */
+.logo {
+    width: 320px; /* Increased to fill more of the screen width */
+    height: 320px;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 15px 20px rgba(0,0,0,0.6));
+}
+
+/* 2. Form fields sized to match the logo width */
+input {
+    display: block;
+    width: 320px; /* Matches logo width exactly */
+    margin: 0 auto 20px auto; /* Centers the fields */
+    padding: 20px;
+    
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 14px;
+    
+    /* Deep 'stamped' shadow */
+    box-shadow: inset 0 10px 15px rgba(0,0,0,0.9), 0 1px 0 rgba(255,255,255,0.05);
+    
+    color: #ffffff;
+    font-size: 18px; /* Larger font to match larger input height */
+    text-align: center;
+}
+
+/* 3. Button matched to input scale */
+button {
+    width: 320px; /* Matches input and logo width */
+    margin: 0 auto;
+    padding: 20px;
+    background: #4E89FF;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
 }
 
 }
