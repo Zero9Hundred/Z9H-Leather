@@ -16,4 +16,47 @@ body {
     
     /* Ensures the background stays put if the page is scrolled */
     background-attachment: fixed; 
+
+/* The 'Cut into Leather' Input Style */
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 16px;
+    
+    /* Dark recessed look */
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 12px;
+    
+    /* The trick: inner shadow creates the 'pressed' depth */
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.8), 0 1px 0 rgba(255,255,255,0.1);
+    
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; /* Optimized for mobile readability */
+}
+
+/* Stamped Button Style */
+button {
+    width: 100%;
+    padding: 16px;
+    background: #4E89FF;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* Soft glow lift */
+    box-shadow: 0 4px 15px rgba(78, 137, 255, 0.3);
+}
+
+/* Mobile Mini Adjustment */
+.login-container {
+    padding: 20px;
+    width: 90%;
+    max-width: 320px; /* Perfect for the smaller Mini screen */
+}
+
 }
