@@ -133,6 +133,17 @@ button {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+
+.logo {
+    width: 320px !important;
+    height: 320px !important;
+}
+
+input, button {
+    width: 320px !important;
+}
+
+
 }
 
 
